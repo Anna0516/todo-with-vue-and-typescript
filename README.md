@@ -1,5 +1,8 @@
 # todo-app
 
+## About
+Simple todo-app for practising Vue with typescript. Add tasks to list, hide or show checked tasks, list with all completed tasks.
+
 ## Project setup
 ```
 npm install

@@ -1,0 +1,70 @@
+$fa-font-path: "../../../node_modules/font-awesome-sass/assets/fonts/font-awesome/";
+//@import "../../../node_modules/font-awesome-sass/assets/stylesheets/font-awesome";
+//@import "~foundation-sites/scss/foundation";
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+//@include foundation-flex-classes;
+//@include foundation-flex-grid;
+//@include foundation-everything(true);
+
+body{
+ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ color: #4d4d4d;
+ font-size: 18px;
+ line-height: 1.4em;
+ background: rgb(246,244,246);
+background: radial-gradient(circle, rgba(246,244,246,1) 0%, rgba(237,180,236,1) 58%, rgba(244,244,244,1) 100%);
+}
+.text-line-through {
+ text-decoration: line-through;
+}
+
+.button {
+ margin: 0;
+}
+
+.bottom_bar {
+ background-color: #0000002e;
+ font-size: 1.5rem;
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ padding: 1.5rem;
+
+ a {
+ color: #0b0a0ab0;
+
+   &.router-link-exact-active {
+     color:  #0b0a0a;
+   }
+
+   i{
+     margin-right: 10px
+   }
+ }
+}
+
+.fade-enter-active, .fade-leave-active {
+ transition: all .2s ease;
+}
+
+.fade-enter, .fade-leave-active {
+ opacity: 0;
+}
+button {
+  box-shadow: 0 1rem 3rem rgba(#2f2f2f, 0.175);
+}
+
+//$box-shadow-lg: 0 1rem 3rem rgba(#2f2f2f, 0.175);
+$theme-colors: (
+  'primary': #e986b8,
+  'secondary': #524f51,
+  'success': #771762,
+  'info': #793f74,
+  'warning': #ac2c90,
+  'danger': #881963,
+  'light': #c8c8c8,
+  'dark': #2f2f2f
+);
+@import 'bootstrap/scss/bootstrap';
